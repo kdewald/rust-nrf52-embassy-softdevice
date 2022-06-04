@@ -8,7 +8,6 @@ version = "0.1.0"
 embassy = { git = "https://github.com/embassy-rs/embassy" }
 embassy-nrf = { git = "https://github.com/embassy-rs/embassy" }
 embassy-macros = { git = "https://github.com/embassy-rs/embassy" }
-embassy-traits = { git = "https://github.com/embassy-rs/embassy" }
 nrf-softdevice = { git = "https://github.com/embassy-rs/nrf-softdevice" }
 nrf-softdevice-s140 = { git = "https://github.com/embassy-rs/nrf-softdevice" }
 nrf-softdevice-defmt-rtt = { git = "https://github.com/embassy-rs/nrf-softdevice" }
@@ -24,7 +23,6 @@ ble-gatt-client = ["nrf-softdevice/ble-gatt-client"]
 
 [dependencies]
 embassy = { version = "0.1.0", features = ["defmt"] }
-embassy-traits = { version = "0.1.0" }
 embassy-nrf = { version = "0.1.0", features = [
     "defmt",
     "nrf52840",
